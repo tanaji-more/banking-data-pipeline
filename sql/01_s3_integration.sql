@@ -1,4 +1,8 @@
 -- Create Storage Integration
+
+-- STEP 1: CREATE STORAGE INTEGRATION (S3 ↔ Snowflake)
+
+
 CREATE OR REPLACE STORAGE INTEGRATION s3_integration
 TYPE = EXTERNAL_STAGE
 STORAGE_PROVIDER = S3
@@ -7,4 +11,6 @@ STORAGE_AWS_ROLE_ARN = 'YOUR_AWS_ROLE_ARN'
 STORAGE_ALLOWED_LOCATIONS = ('s3://bank-data-tanaji/');
 
 -- Get IAM details
+-- Get IAM User ARN & External ID (used in AWS IAM Role)
+
 DESC INTEGRATION s3_integration;
