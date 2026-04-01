@@ -1,4 +1,4 @@
-# Banking Data Pipeline using Snowflake & AWS S3
+# Banking Data Pipeline using Snowflake & AWS S3:
 
 ## 📌 Overview
 
