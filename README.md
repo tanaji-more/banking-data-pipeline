@@ -65,7 +65,7 @@ This project follows a modern data engineering architecture:
 * SQL
 * Data Modeling (Star Schema)
 
-## 🚀 Features:
+## 🚀 Features
 
 * Data ingestion from S3 using external stage
 * Data cleaning and transformation (ELT)
